@@ -1,0 +1,5 @@
+user_input = input("Введите имена через пробел: ")
+names = user_input.split() 
+unique_names = set(names) 
+count_unique = len(unique_names)  
+print("Число уникальных имен:", count_unique)
